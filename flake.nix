@@ -44,7 +44,6 @@
               pg_ctl -D $PGDATA -l $PG/postgres.log start &&
               createdb
             }
-            pg_setup
         '';
       };
     };
