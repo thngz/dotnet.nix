@@ -33,7 +33,7 @@
             export PGHOST=localhost
             export PGUSER=$USER
             export PGPASSWORD=postgres
-            export PGDATABASE=piletiring
+            export PGDATABASE=foo
             export DB_URL=postgres://$PGUSER:$PGPASSWORD@$PGHOST:$PGPORT/$PGDATABASE
 
             pg_setup() {
